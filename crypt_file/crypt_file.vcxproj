@@ -43,6 +43,7 @@
     <NMakeReBuildCommandLine>my_build chk WNET crypt_file /a</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>my_clean chk WNET crypt_file</NMakeCleanCommandLine>
     <NMakeOutput>crypt_file.sys</NMakeOutput>
+    <NMakeIncludeSearchPath>C:\WinDDK\7600.16385.1\inc\ddk</NMakeIncludeSearchPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>Release\</OutDir>

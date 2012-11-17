@@ -43,6 +43,7 @@
     <NMakeBuildCommandLine>my_build chk WNET</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>my_build chk WNET /a</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>my_clean chk WNET</NMakeCleanCommandLine>
+    <NMakeIncludeSearchPath>C:\WinDDK\7600.16385.1\inc\ddk</NMakeIncludeSearchPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(Configuration)\</OutDir>
